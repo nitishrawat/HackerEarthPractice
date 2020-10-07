@@ -38,7 +38,7 @@ class CostOfBalloons {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(br.readLine());
         for(int i=0;i<t;i++){
-            String s[] = br.readLine().trim().split(" ");
+            String s[] = br.readLine().split(" ");
             int costOfGreenColoredBalloon = Integer.parseInt(s[0]);
             int costOfPurpleColoredBalloon = Integer.parseInt(s[1]);
             int n = Integer.parseInt(br.readLine());
